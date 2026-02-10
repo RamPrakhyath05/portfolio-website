@@ -35,9 +35,9 @@ const Hero = () => {
             </p>
             
             <h1 className="mt-4 text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-black tracking-tighter leading-[0.9]">
-              <span className="text-white">Ram Prakhyath</span>
-              <br />
               <span className="mt-5 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 animate-gradient">
+                Ram Prakhyath
+                <br />
                 Annamareddy
               </span>
             </h1>
@@ -48,11 +48,11 @@ const Hero = () => {
                 href="https://pes.edu"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white hover:text-[#F15A22] underline decoration-[#F15A22]/30 hover:decoration-[#F15A22] transition-all duration-300"
+                className="text-[#F15A22] hover:text-[#FFFFFF] hover:decoration-[#F15A22] transition-all duration-300"
               >
                 PES University
               </a>
-              <span className="mx-3 text-neutral-600">|</span>
+              <br/>
               <span className="text-neutral-200 font-medium">Aspiring Backend Systems Engineer</span>
             </p>
 
